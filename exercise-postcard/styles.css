@@ -1,0 +1,61 @@
+body {
+    font-family: "Emilys Candy", serif;
+    font-size: large;
+}
+
+div {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 10px;
+    
+}
+
+h1 {
+    font-family: "Meow Script", cursive;
+    font-size: 75px;
+    margin: 0px;
+}
+
+img {
+    width: auto;
+    align-items: center;
+    height: 75px;
+}
+
+i {
+    align-items: center;
+}
+
+input {
+    font-family: "Emilys Candy", serif;
+    font-size: large;
+    border-width: 0px 0px 1px 0px;
+    width: 90%;
+}
+
+button {
+    font-family: "Meow Script", cursive;
+    font-size: large;
+    background-color: bisque;
+    border-color:silver;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-gap: 20px;
+    height: auto;
+    align-items: center;
+}
+
+.grid-text-input {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+
+.button {
+    text-align: center;
+    width: 100%;
+}
