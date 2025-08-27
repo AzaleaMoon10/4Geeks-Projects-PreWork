@@ -1,0 +1,57 @@
+body {
+    background: lightgrey;
+    margin: 0;
+}
+
+header {
+    background: white;
+    padding: 1%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    margin-top: 20px;
+}
+
+.post-header {
+    align-items: center;
+}
+
+.post-header h2 {
+    width: 80%;
+    margin: 0;
+}
+
+.post-header span {
+    width: 19%;
+    text-align: right;
+    color: lightgrey;
+}
+
+.post-header h2, .post-header span {
+    display: inline-block;
+}
+
+.post img {
+    width: 100%;
+    height: 100%;
+}
+
+.post p, .post-header h2 {
+    padding: 15px 0px 15px 1%;
+    margin: 0;
+}
