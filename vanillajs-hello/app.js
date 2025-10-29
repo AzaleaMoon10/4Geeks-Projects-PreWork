@@ -1,15 +1,19 @@
 function randomElement(a) {
   return a[Math.floor(Math.random() * a.length)];
-};
+}
 
-function excuseGen (arr1, arr2, arr3, arr4) {
+function excuseGen() {
   return randomElement(who).concat(" ", randomElement(action), " ", randomElement(what), " ", randomElement(when));
 }
 
-let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
-let action = ['ate', 'peed', 'crushed', 'broke'];
-let what = ['my homework', 'my phone', 'the car'];
-let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
+function buttonFunc() {
+  document.getElementById("excuse").innerHTML = `<h1>${excuseGen(who, action, what, when)}</h1>`;
+}
+
+const who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
+const action = ['ate', 'peed', 'crushed', 'broke'];
+const what = ['my homework', 'my phone', 'the car'];
+const when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
 
 window.onload = function() {
   //write your code here
@@ -17,6 +21,7 @@ window.onload = function() {
   console.log(excuse);
 
   document.getElementById("excuse").innerHTML = `<h1>${excuse}</h1>`;
-};
+}
+
 
 
