@@ -1,10 +1,3 @@
-import "bootstrap";
-import "./style.css";
-
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 function randomElement(a) {
   return a[Math.floor(Math.random() * a.length)];
 };
@@ -22,8 +15,8 @@ console.log(excuseGen(who, action, what, when));
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
   let excuse = excuseGen(who, action, what, when);
+  console.log(excuse);
   
   document.getElementById("excuse").innerHTML = `<h1>${excuse}</h1>`;
 };
