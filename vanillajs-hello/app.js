@@ -11,13 +11,12 @@ let action = ['ate', 'peed', 'crushed', 'broke'];
 let what = ['my homework', 'my phone', 'the car'];
 let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
 
-console.log(excuseGen(who, action, what, when));
-
 window.onload = function() {
   //write your code here
   let excuse = excuseGen(who, action, what, when);
   console.log(excuse);
-  
+
   document.getElementById("excuse").innerHTML = `<h1>${excuse}</h1>`;
 };
+
 
